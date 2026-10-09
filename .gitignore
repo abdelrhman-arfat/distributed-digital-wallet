@@ -1,0 +1,112 @@
+# ==============================
+
+# Maven / Build
+
+# ==============================
+
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# ==============================
+
+# Environment variables / Secrets
+
+# ==============================
+
+.env
+.env.*
+!.env.example
+!.env.template
+
+# Private keys and certificates
+
+*.pem
+*.key
+*.p12
+*.pfx
+*.jks
+*.keystore
+
+# ==============================
+
+# Local configuration overrides
+
+# ==============================
+
+application-local.properties
+application-local.yml
+application-local.yaml
+application-dev-local.properties
+application-dev-local.yml
+application-dev-local.yaml
+
+# ==============================
+
+# Logs
+
+# ==============================
+
+*.log
+logs/
+
+# ==============================
+
+# IntelliJ IDEA
+
+# ==============================
+
+.idea/
+*.iml
+out/
+
+# ==============================
+
+# Eclipse
+
+# ==============================
+
+.classpath
+.project
+.settings/
+
+# ==============================
+
+# VS Code
+
+# ==============================
+
+.vscode/
+
+# ==============================
+
+# macOS / Windows
+
+# ==============================
+
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+
+# Temporary files
+
+# ==============================
+
+*.tmp
+*.swp
+*.swo
+*~
+
+# ==============================
+
+# Test / Coverage reports
+
+# ==============================
+
+coverage/
+jacoco.exec
+
+
+node_modules
+private/*
